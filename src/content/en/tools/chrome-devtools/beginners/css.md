@@ -38,8 +38,9 @@ You'll also have a real website!
 Before attempting this tutorial, complete the following prerequisites:
 
 * Complete the previous tutorial on HTML and DOM or complete *Setup* below.
-* Download the [Google Chrome][chrome]{: .external } web browser. 
-This tutorial uses a set of web development tools, 
+
+
+* Download the [Google Chrome][chrome]{: .external } web browser. This tutorial uses a set of web development tools, 
 called Chrome DevTools, that are built into Google Chrome. 
 [chrome]: https://www.google.com/chrome/
 
@@ -274,7 +275,7 @@ To remedy that:
 2. Navigate to `style.css` using the menu on the left.
 3. Inside the `main` section, press enter and type `display: flex`. 
 This will align all `<divs>` in `<main>` horizontally.
-
+3. Inside the `main` section, press enter and type `display: flex`. This will align all `<divs>` in `<main>` horizontally.
   `(TODO: A screenshot showing the code.)`
 
 4. Navigate to the viewing tab to see the changes.
@@ -312,6 +313,7 @@ a readout of the selected element's CSS, and a Box Model Diagram.
 Note: You may need to scroll down to see the Box Model Diagram 
 depending on the size and position of your DevTools screen.
 
+
 The box model states that a browser renders each HTML element as a box whose 
 properties can be edited by CSS declarations. 
 Each box has four elements: content, padding, border, and margin. 
@@ -332,11 +334,11 @@ You should see a change in the space around the content inside the sidebar.
 
 `(TODO: A screenshot showing someone doing that action.)`
 
-2. Repeat this for the other 5s in the padding box.
+3. Repeat this for the other 5s in the padding box.
 
 `(TODO: A screenshot showing the finished padding box.)`
 
-3. You may have noticed that an inline stylesheet 
+4. You may have noticed that an inline stylesheet 
 was added to `main`. Copy every CSS declaration after `style="`.
 
 `(TODO: A screenshot showing someone doing that action.)`
